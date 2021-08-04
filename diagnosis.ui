@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DiagnosisWindow</class>
+ <widget class="QMainWindow" name="DiagnosisWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>50</y>
+      <width>141</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Keluhan pasien :</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>120</y>
+      <width>161</width>
+      <height>46</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="batuk3minggu">
+     <item row="1" column="0">
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QRadioButton" name="radioButton_2">
+         <property name="text">
+          <string>Ya</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton">
+         <property name="text">
+          <string>Tidak</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="font">
+        <font>
+         <family>Times New Roman</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Batuk &gt;3 minggu</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>170</y>
+      <width>161</width>
+      <height>46</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="batuk3minggu_2">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_11">
+       <property name="font">
+        <font>
+         <family>Times New Roman</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Demam meriang</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <layout class="QHBoxLayout" name="horizontalLayout_12">
+       <item>
+        <widget class="QRadioButton" name="radioButton_23">
+         <property name="text">
+          <string>Ya</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_24">
+         <property name="text">
+          <string>Tidak</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>220</y>
+      <width>161</width>
+      <height>46</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="batuk3minggu_3">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_12">
+       <property name="font">
+        <font>
+         <family>Times New Roman</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Batuk berdarah</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <layout class="QHBoxLayout" name="horizontalLayout_13">
+       <item>
+        <widget class="QRadioButton" name="radioButton_25">
+         <property name="text">
+          <string>Ya</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_26">
+         <property name="text">
+          <string>Tidak</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget_4">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>320</y>
+      <width>161</width>
+      <height>46</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="batuk3minggu_4">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_13">
+       <property name="font">
+        <font>
+         <family>Times New Roman</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Sesak nafas</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <layout class="QHBoxLayout" name="horizontalLayout_14">
+       <item>
+        <widget class="QRadioButton" name="radioButton_27">
+         <property name="text">
+          <string>Ya</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_28">
+         <property name="text">
+          <string>Tidak</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget_6">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>270</y>
+      <width>161</width>
+      <height>46</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="batuk3minggu_6">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="font">
+        <font>
+         <family>Times New Roman</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Nyeri dada</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <item>
+        <widget class="QRadioButton" name="radioButton_7">
+         <property name="text">
+          <string>Ya</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_8">
+         <property name="text">
+          <string>Tidak</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget_7">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>120</y>
+      <width>161</width>
+      <height>46</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="batuk3minggu_7">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="font">
+        <font>
+         <family>Times New Roman</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Badan lemas</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <layout class="QHBoxLayout" name="horizontalLayout_5">
+       <item>
+        <widget class="QRadioButton" name="radioButton_9">
+         <property name="text">
+          <string>Ya</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_10">
+         <property name="text">
+          <string>Tidak</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget_8">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>170</y>
+      <width>161</width>
+      <height>46</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="batuk3minggu_8">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_15">
+       <property name="font">
+        <font>
+         <family>Times New Roman</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Nafsu makan menurun</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <layout class="QHBoxLayout" name="horizontalLayout_16">
+       <item>
+        <widget class="QRadioButton" name="radioButton_31">
+         <property name="text">
+          <string>Ya</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_32">
+         <property name="text">
+          <string>Tidak</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget_9">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>220</y>
+      <width>161</width>
+      <height>46</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="batuk3minggu_9">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_16">
+       <property name="font">
+        <font>
+         <family>Times New Roman</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Berat badan menurun</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <layout class="QHBoxLayout" name="horizontalLayout_17">
+       <item>
+        <widget class="QRadioButton" name="radioButton_33">
+         <property name="text">
+          <string>Ya</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_34">
+         <property name="text">
+          <string>Tidak</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget_10">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>270</y>
+      <width>161</width>
+      <height>46</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="batuk3minggu_10">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_5">
+       <property name="font">
+        <font>
+         <family>Times New Roman</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Berkeringat dimalam hari</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <layout class="QHBoxLayout" name="horizontalLayout_6">
+       <item>
+        <widget class="QRadioButton" name="radioButton_11">
+         <property name="text">
+          <string>Ya</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_12">
+         <property name="text">
+          <string>Tidak</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="btnDiagnosis">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>330</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Diagnosis</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnKeluar">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>330</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Keluar</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
